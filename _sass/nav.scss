@@ -1,0 +1,35 @@
+//Selectors in an unordered list in the nav tag
+ul.nav {
+    //Text appearance
+    color: green;
+    font-family: sans-serif;
+
+    // Position and appearance
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+//In an unordered list in the nav tag, a list item's anchor text
+ul.nav li a {
+    color: green;
+}
+
+
+//To make it more human readable, could do it like this (so all nav related things in one tag)
+ul.nav {
+    //Text appearance
+    color: green;
+    font-family: sans-serif;
+
+    // Position and appearance
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        a {
+            color: green;
+        }
+    }
+}
